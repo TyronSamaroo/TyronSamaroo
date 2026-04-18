@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Tyron%20Samaroo&fontColor=ffffff&fontSize=60&fontAlignY=38&desc=Software%20engineer%20·%20Builder%20·%20Occasional%20Etsy%20scraper&descAlignY=62&descSize=16&animation=fadeIn)
 
 <p align="center">
-  <a href="https://tyronsamaroo.com"><img src="https://img.shields.io/badge/🌐_Portfolio-0f172a?style=for-the-badge" /></a>
+  <a href="https://tyronsamaroo.dev"><img src="https://img.shields.io/badge/🌐_Portfolio-0f172a?style=for-the-badge" /></a>
   <a href="mailto:tyronsamaroo@gmail.com"><img src="https://img.shields.io/badge/✉_Email-D14836?style=for-the-badge" /></a>
   <a href="https://www.linkedin.com/in/tyronsamaroo"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
