@@ -21,13 +21,13 @@ mantra // Ship it, then make it weird.
 
 ```
 `Python     ` ━━━━━━━━━━━━━━━━  `// python`
-`Java       ` ━━━━━━━━━━━━━━━━  `// openjdk`
 `TypeScript ` ━━━━━━━━━━━━━━━━  `// typescript`
 `React      ` ━━━━━━━━━━━━━━━━  `// react`
 `Node.js    ` ━━━━━━━━━━━━━━━━  `// node.js`
 `TensorFlow ` ━━━━━━━━━━━━━━━━  `// tensorflow`
 `PyTorch    ` ━━━━━━━━━━━━━━━━  `// pytorch`
 `Flask      ` ━━━━━━━━━━━━━━━━  `// flask`
+`Java       ` ━━━━━━━━━━━━━━━━  `// openjdk`
 ```
 
 ## `// > BUILDS`
