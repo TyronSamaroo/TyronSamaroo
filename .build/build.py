@@ -78,7 +78,7 @@ def render_v5():
         f"[![LinkedIn](https://img.shields.io/badge/linkedin-{C['handle']}-7aff9e?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=0a1f0f)]({C['linkedin_url']})",
     ])
     stack_badges = " ".join(
-        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'])}-{s['color']}?style=for-the-badge&logo={s['logo']}&logoColor={s['text']})"
+        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'], safe='')}-{s['color']}?style=for-the-badge&logo={s['logo']}&logoColor={s['text']})"
         for s in C["stack"]
     )
     # Projects 2x3 table
@@ -461,7 +461,7 @@ _{C['short_role']}_
 
 def render_vA():
     chips = " ".join(
-        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'])}-eee?style=flat-square&logo={s['logo']}&logoColor=555)"
+        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'], safe='')}-eee?style=flat-square&logo={s['logo']}&logoColor=555)"
         for s in C["stack"][:8]
     )
     # 3 selected projects for minimal view
@@ -506,7 +506,7 @@ def render_vC():
         rows.append("<tr>" + "".join(tile(p[i+j], i+j) for j in range(3)) + "</tr>")
     grid = "<table>\n" + "\n".join(rows) + "\n</table>"
     chips = " ".join(
-        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'])}-{s['color']}?style=flat&logo={s['logo']}&logoColor={s['text']})"
+        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'], safe='')}-{s['color']}?style=flat&logo={s['logo']}&logoColor={s['text']})"
         for s in C["stack"][:8]
     )
     return f"""<!-- generated — edit content.py -->
@@ -576,12 +576,12 @@ def render_v7():
     ])
     # PRIMARY stack — big, brand-colored, pops (Python/TS/React)
     primary_chips = " ".join(
-        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'])}-{s['color']}?style=for-the-badge&logo={s['logo']}&logoColor={s['text']}&labelColor={s['color']})"
+        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'], safe='')}-{s['color']}?style=for-the-badge&logo={s['logo']}&logoColor={s['text']}&labelColor={s['color']})"
         for s in C["primary_stack"]
     )
     # Full arsenal — each tech in its native brand color so they don't blur together
     stack_chips = " ".join(
-        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'])}-{s['color']}?style=for-the-badge&logo={s['logo']}&logoColor={s['text']})"
+        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'], safe='')}-{s['color']}?style=for-the-badge&logo={s['logo']}&logoColor={s['text']})"
         for s in C["stack"]
     )
     # Projects as "cards" — 2×3 table, violet borders via sub labels
