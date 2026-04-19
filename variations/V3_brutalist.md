@@ -16,7 +16,7 @@ I build at the seam where ML meets systems — neural nets, compilers, things wi
 
 ## § 2 &nbsp; ARSENAL
 
-`Python  ·  Java  ·  TypeScript  ·  React  ·  Node.js  ·  TensorFlow  ·  PyTorch  ·  Flask  ·  PostgreSQL  ·  Docker  ·  Linux  ·  Git`
+`Python  ·  TypeScript  ·  React  ·  Node.js  ·  TensorFlow  ·  PyTorch  ·  Flask  ·  Java  ·  PostgreSQL  ·  Docker  ·  Linux  ·  Git`
 
 ---
 
