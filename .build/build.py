@@ -574,9 +574,14 @@ def render_v7():
         f"[![email](https://img.shields.io/badge/email-{C['email'].replace('@','%40').replace('.','%2E')}-3b82f6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=09090b)](mailto:{C['email']})",
         f"[![linkedin](https://img.shields.io/badge/linkedin-{C['handle']}-6366f1?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=09090b)]({C['linkedin_url']})",
     ])
-    # Skill chips in violet-on-zinc
+    # PRIMARY stack — big, brand-colored, pops (Python/TS/React)
+    primary_chips = " ".join(
+        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'])}-{s['color']}?style=for-the-badge&logo={s['logo']}&logoColor={s['text']}&labelColor={s['color']})"
+        for s in C["primary_stack"]
+    )
+    # Full arsenal — each tech in its native brand color so they don't blur together
     stack_chips = " ".join(
-        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'])}-09090b?style=for-the-badge&logo={s['logo']}&logoColor={s['text']}&labelColor=1a1033)"
+        f"![{s['name']}](https://img.shields.io/badge/{quote(s['name'])}-{s['color']}?style=for-the-badge&logo={s['logo']}&logoColor={s['text']})"
         for s in C["stack"]
     )
     # Projects as "cards" — 2×3 table, violet borders via sub labels
@@ -623,6 +628,14 @@ def render_v7():
 ## `/skills`
 
 <div align="center">
+
+**primary** — shipping daily
+
+{primary_chips}
+
+<br/>
+
+**arsenal** — proven in production
 
 {stack_chips}
 
