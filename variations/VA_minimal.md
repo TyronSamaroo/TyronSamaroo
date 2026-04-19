@@ -4,7 +4,7 @@
 
 I build at the seam where ML meets systems — neural nets, compilers, things with zero dependencies. Based in NYC.
 
-![Python](https://img.shields.io/badge/Python-eee?style=flat-square&logo=python&logoColor=555) ![Java](https://img.shields.io/badge/Java-eee?style=flat-square&logo=openjdk&logoColor=555) ![TypeScript](https://img.shields.io/badge/TypeScript-eee?style=flat-square&logo=typescript&logoColor=555) ![React](https://img.shields.io/badge/React-eee?style=flat-square&logo=react&logoColor=555) ![Node.js](https://img.shields.io/badge/Node.js-eee?style=flat-square&logo=node.js&logoColor=555) ![TensorFlow](https://img.shields.io/badge/TensorFlow-eee?style=flat-square&logo=tensorflow&logoColor=555) ![PyTorch](https://img.shields.io/badge/PyTorch-eee?style=flat-square&logo=pytorch&logoColor=555) ![Flask](https://img.shields.io/badge/Flask-eee?style=flat-square&logo=flask&logoColor=555)
+![Python](https://img.shields.io/badge/Python-eee?style=flat-square&logo=python&logoColor=555) ![TypeScript](https://img.shields.io/badge/TypeScript-eee?style=flat-square&logo=typescript&logoColor=555) ![React](https://img.shields.io/badge/React-eee?style=flat-square&logo=react&logoColor=555) ![Node.js](https://img.shields.io/badge/Node.js-eee?style=flat-square&logo=node.js&logoColor=555) ![TensorFlow](https://img.shields.io/badge/TensorFlow-eee?style=flat-square&logo=tensorflow&logoColor=555) ![PyTorch](https://img.shields.io/badge/PyTorch-eee?style=flat-square&logo=pytorch&logoColor=555) ![Flask](https://img.shields.io/badge/Flask-eee?style=flat-square&logo=flask&logoColor=555) ![Java](https://img.shields.io/badge/Java-eee?style=flat-square&logo=openjdk&logoColor=555)
 
 ---
 
