@@ -26,15 +26,23 @@ CONTENT = {
         "[ OK ] welcome back, tyron.",
     ],
     "skillicons_slug": "py,java,js,ts,react,nodejs,flask,tensorflow,pytorch,postgres,docker,git,linux",
-    "stack": [
+    # Primary stack = what I'm using daily. Everything else = proven in shipped work.
+    "primary_stack": [
         {"name": "Python",     "color": "3776AB", "logo": "python",     "text": "white"},
-        {"name": "Java",       "color": "ED8B00", "logo": "openjdk",    "text": "white"},
         {"name": "TypeScript", "color": "3178C6", "logo": "typescript", "text": "white"},
-        {"name": "React",      "color": "20232A", "logo": "react",      "text": "61DAFB"},
+        {"name": "React",      "color": "61DAFB", "logo": "react",      "text": "20232A"},
+    ],
+    "stack": [
+        # headline three first so they sort to the front of every variation
+        {"name": "Python",     "color": "3776AB", "logo": "python",     "text": "white"},
+        {"name": "TypeScript", "color": "3178C6", "logo": "typescript", "text": "white"},
+        {"name": "React",      "color": "61DAFB", "logo": "react",      "text": "20232A"},
+        # rest — brand-native colors, each pops differently
         {"name": "Node.js",    "color": "339933", "logo": "node.js",    "text": "white"},
         {"name": "TensorFlow", "color": "FF6F00", "logo": "tensorflow", "text": "white"},
         {"name": "PyTorch",    "color": "EE4C2C", "logo": "pytorch",    "text": "white"},
         {"name": "Flask",      "color": "000000", "logo": "flask",      "text": "white"},
+        {"name": "Java",       "color": "ED8B00", "logo": "openjdk",    "text": "white"},
         {"name": "PostgreSQL", "color": "4169E1", "logo": "postgresql", "text": "white"},
         {"name": "Docker",     "color": "2496ED", "logo": "docker",     "text": "white"},
         {"name": "Linux",      "color": "FCC624", "logo": "linux",      "text": "black"},
