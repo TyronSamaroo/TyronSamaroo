@@ -31,12 +31,16 @@ CONTENT = {
         {"name": "Python",     "color": "3776AB", "logo": "python",     "text": "white"},
         {"name": "TypeScript", "color": "3178C6", "logo": "typescript", "text": "white"},
         {"name": "React",      "color": "61DAFB", "logo": "react",      "text": "20232A"},
+        {"name": "uv",         "color": "DE5FE9", "logo": "uv",         "text": "white"},
+        {"name": "shadcn/ui",  "color": "000000", "logo": "shadcnui",   "text": "white"},
     ],
     "stack": [
-        # headline three first so they sort to the front of every variation
+        # headline first so they sort to the front of every variation
         {"name": "Python",     "color": "3776AB", "logo": "python",     "text": "white"},
         {"name": "TypeScript", "color": "3178C6", "logo": "typescript", "text": "white"},
         {"name": "React",      "color": "61DAFB", "logo": "react",      "text": "20232A"},
+        {"name": "uv",         "color": "DE5FE9", "logo": "uv",         "text": "white"},
+        {"name": "shadcn/ui",  "color": "000000", "logo": "shadcnui",   "text": "white"},
         # rest — brand-native colors, each pops differently
         {"name": "Node.js",    "color": "339933", "logo": "node.js",    "text": "white"},
         {"name": "TensorFlow", "color": "FF6F00", "logo": "tensorflow", "text": "white"},
