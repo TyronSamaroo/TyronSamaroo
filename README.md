@@ -42,21 +42,31 @@ const tyron = {
 
 ## `$ cat ~/arsenal.log`
 
-<p><img src="https://skillicons.dev/icons?i=py,java,js,ts,react,nodejs,flask,tensorflow,pytorch,postgres,docker,git,linux&perline=13&theme=dark" alt="arsenal" /></p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff&labelColor=050806" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=ffffff&labelColor=050806" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=ffffff&labelColor=050806" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=050806&labelColor=050806" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=ffffff&labelColor=050806" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=ffffff&labelColor=050806" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=ffffff&labelColor=050806" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=ffffff&labelColor=050806" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=ffffff&labelColor=050806" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=ffffff&labelColor=050806" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=050806&labelColor=050806" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=ffffff&labelColor=050806" />
+</p>
 
 ```
-python      ████████████████████░   94%   daily driver
-java        ██████████████████░░░   88%   compiler, scraper
-typescript  █████████████████░░░░   85%   most front-ends
-react       ████████████████░░░░░   82%   Palate, portfolio
-tensorflow  ███████████████░░░░░░   78%   ASL net
-pytorch     ██████████████░░░░░░░   72%   experiments
-flask       ████████████████░░░░░   80%   Stock_App
-node.js     ███████████████░░░░░░   75%   Palate backend
-postgres    ██████████████░░░░░░░   70%   + raw SQL
-docker      ██████████████░░░░░░░   74%   ship it.
-linux       █████████████████░░░░   86%   home & server
-git         ██████████████████░░░   92%   rebase enjoyer
+python       daily driver · ML, scrapers, APIs
+java         compilers, JDK scrapers
+typescript   most front-ends, type-safe APIs
+react        Palate, portfolio
+tensorflow   ASL-Alpha neural net
+flask        Stock_App, quick services
+docker       ship it
+linux        home lab & server
+git          rebase enjoyer
 ```
 
 ---
@@ -68,21 +78,17 @@ git         ██████████████████░░░   92
 <td>
 
 #### 🧏 [ASL-Alpha-NeuralNet](https://github.com/TyronSamaroo/ASL-Alpha-NeuralNet)
-> `drwxr-xr-x  tyron  089 commits  ★ 14`
-
 CNN that reads American Sign Language letters from a webcam. Accessibility + vision.
 
-`Python` · `Jupyter` · `ML`
+`Python` · `TensorFlow` · `CV`
 
 </td>
 <td>
 
 #### ⚙️ [Compiler-TinyJ](https://github.com/TyronSamaroo/Compiler-TinyJ)
-> `drwxr-xr-x  tyron  154 commits  ★ 22`
-
 A tiny Java compiler. Lexer → parser → codegen, end to end. From scratch.
 
-`Java`
+`Java` · `Compilers`
 
 </td>
 </tr>
@@ -90,21 +96,17 @@ A tiny Java compiler. Lexer → parser → codegen, end to end. From scratch.
 <td>
 
 #### 🍽️ [Palate](https://github.com/TyronSamaroo/Palate)
-> `drwxr-xr-x  tyron  212 commits  ★ 08`
-
 Full-stack React app for food discovery. Team project.
 
-`React` · `JS` · `Node`
+`React` · `Node` · `JS`
 
 </td>
 <td>
 
 #### 🧵 [EtsyScraper](https://github.com/TyronSamaroo/EtsyScraper)
-> `drwxr-xr-x  tyron  067 commits  ★ 31`
-
 Web scraper built with *only* the Java JDK. No third-party libs. Pure grit.
 
-`Java`
+`Java` · `HTTP` · `Parsing`
 
 </td>
 </tr>
@@ -112,21 +114,17 @@ Web scraper built with *only* the Java JDK. No third-party libs. Pure grit.
 <td>
 
 #### 🔍 [SearchEngine](https://github.com/TyronSamaroo/SearchEngine)
-> `drwxr-xr-x  tyron  103 commits  ★ 11`
-
 Tiny search engine: indexing, ranking, query parser.
 
-`JavaScript`
+`JavaScript` · `IR`
 
 </td>
 <td>
 
 #### 📈 [Stock_App_Flask](https://github.com/TyronSamaroo/Stock_App_Flask)
-> `drwxr-xr-x  tyron  078 commits  ★ 09`
-
 Flask stock tracker + portfolio views. Market data + caching.
 
-`Python` · `Flask`
+`Python` · `Flask` · `APIs`
 
 </td>
 </tr>
@@ -134,29 +132,23 @@ Flask stock tracker + portfolio views. Market data + caching.
 
 ---
 
-## `$ cat ~/now.txt`
+## `$ cat ~/focus.txt`
 
 ```
-▸ shipping at the intersection of ML × systems × product
-▸ sharpening distributed systems + LLM infra
+▸ ML × systems × product — where the interesting problems live
+▸ sharpening distributed systems + LLM infrastructure
+▸ building compilers for fun (because they teach you everything)
 ▸ open to collabs on anything with a compiler, a model, or a very strange idea
 ▸ best way in: tyronsamaroo@gmail.com
 ```
 
 ---
 
-## `$ stats --compact`
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TyronSamaroo&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=050806&title_color=7aff9e&icon_color=ff5fb3&text_color=a6ffbf&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TyronSamaroo&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=050806&title_color=7aff9e&text_color=a6ffbf&langs_count=8" height="165" />
+  <img src="https://img.shields.io/badge/STATUS-shipping%20daily-7aff9e?style=for-the-badge&labelColor=050806" />
+  <img src="https://img.shields.io/badge/OPEN%20TO-collabs%20%26%20roles-5ff0ff?style=for-the-badge&labelColor=050806" />
+  <img src="https://img.shields.io/badge/LOCATION-NYC-ff5fb3?style=for-the-badge&labelColor=050806" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=TyronSamaroo&theme=chartreuse-dark&hide_border=true&background=050806&stroke=1a2b1f&ring=7aff9e&fire=ff5fb3&currStreakLabel=7aff9e&sideLabels=a6ffbf&dates=6a8b73" height="165" />
-</p>
-
----
 
 <p align="center"><code>tyron@localhost:~$ _</code></p>
 <p align="center"><i>"wrote a compiler before I trusted myself with a toaster." — me, probably</i></p>
