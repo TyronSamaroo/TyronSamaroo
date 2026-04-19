@@ -26,7 +26,15 @@ I build at the seam where ML meets systems — neural nets, compilers, things wi
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-09090b?style=for-the-badge&logo=python&logoColor=white&labelColor=1a1033) ![Java](https://img.shields.io/badge/Java-09090b?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=1a1033) ![TypeScript](https://img.shields.io/badge/TypeScript-09090b?style=for-the-badge&logo=typescript&logoColor=white&labelColor=1a1033) ![React](https://img.shields.io/badge/React-09090b?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=1a1033) ![Node.js](https://img.shields.io/badge/Node.js-09090b?style=for-the-badge&logo=node.js&logoColor=white&labelColor=1a1033) ![TensorFlow](https://img.shields.io/badge/TensorFlow-09090b?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=1a1033) ![PyTorch](https://img.shields.io/badge/PyTorch-09090b?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=1a1033) ![Flask](https://img.shields.io/badge/Flask-09090b?style=for-the-badge&logo=flask&logoColor=white&labelColor=1a1033) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-09090b?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=1a1033) ![Docker](https://img.shields.io/badge/Docker-09090b?style=for-the-badge&logo=docker&logoColor=white&labelColor=1a1033) ![Linux](https://img.shields.io/badge/Linux-09090b?style=for-the-badge&logo=linux&logoColor=black&labelColor=1a1033) ![Git](https://img.shields.io/badge/Git-09090b?style=for-the-badge&logo=git&logoColor=white&labelColor=1a1033)
+**primary** — shipping daily
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=3776AB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=3178C6) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=20232A&labelColor=61DAFB)
+
+<br/>
+
+**arsenal** — proven in production
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=20232A) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
